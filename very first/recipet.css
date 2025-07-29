@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial' , sans-serif;
+    background-color: rgba(169, 169, 169, 0.63);
+    color: rgb(15, 9, 1);
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color:#F8BBD0;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0%;
+}
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+.introduction, .ingredients,
+.instructions {
+    background-color: #DCEDC8;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,1);
+}
+.ingredients h2, .instructions h2 {color: #e589aa;}
+ul, ol {margin-left: 20px;}
+footer { 
+    text-align: center;
+    background-color: #F8BBD0;
+    color: black;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
